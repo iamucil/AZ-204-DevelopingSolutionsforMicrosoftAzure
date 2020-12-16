@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 public class Program
 {
-    private const string sqlDBConnectionString = "Server=tcp:polysqlsrvriamucil.database.windows.net,1433;Initial Catalog=AdventureWorks;Persist Security Info=False;User ID=iamgroot;Password=mySecretPassw0rd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-    private const string cosmosDBConnectionString = "AccountEndpoint=https://polycosmosiamucil.documents.azure.com:443/;AccountKey=Xj5pagnd8sSgpKjQPbujmcmco0sg2BuLVPhlGHQ20Y9AVvxGw7IlQp9y6yDm58QLBLtl3hTCjF9T54LbGQIPkw==;";
+    private const string sqlDBConnectionString = "{SQLDB CONNECTION STRING}";
+    private const string cosmosDBConnectionString = "{COSMODB CONNECTION STRING}";
 
     public static async Task Main(string[] args)
     {
